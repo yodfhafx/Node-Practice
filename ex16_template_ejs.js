@@ -5,7 +5,6 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', './public');
 
-
 app.get('/', (req, res) => {
     res.render('index2', {
         header: 'Ejs Template engine',
